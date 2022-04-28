@@ -1,0 +1,66 @@
+﻿ANSWER Code,,studyid,value
+Visit,followup_visit_#_arm_1,redcap_event_name,
+Date of follow-up tests,text (date_dd-mm-yyyy),labdate_enrollfu,
+Was a CBC test performed?,1=yes; 2=no,cbc_enrollfu,
+What was the platelet value?,"text (number, Min: 0, Max: 1000)",cbcplt_enrollfu,
+"Was the platelet value low, high, or within the ""normal"" range?",0=Low;1=High; 2=Within the range,cbcplttest_enrollfu,
+What was the absolute neutrophil count?,"text (number, Min: 0, Max: 1000)",cbcneu_enrollfu,
+"Was the absolute neutrophil count low, high, or within the ""normal"" range?",0=Low;1=High; 2=Within the range,cbcneutest_enrollfu,
+"Was a Westergren RBC Sed Rate (also known as ""ESR"" - Erythrocyte Sedimentation Rate) test performed? 
+Found under ""Other Hematology"" in Results tab in MiChart",1=yes; 2=no,esrtest_enrollfu,
+What was the ESR value?,"text (number, Min: 0, Max: 1000)",esr_enrollfu,
+"Was the ESR value low, high, or within the ""normal"" range?",0=Low;1=High; 2=Within the range,esrvalue_enrollfu,
+Was a chem profile test performed?,1=yes; 2=no,chempro_enrollfu,
+What was the creatinine value?,"text (number_2decimel places, Min: 0, Max: 1000)",creat_enrollfu,
+"Was the creatinine value low, high, or within the ""normal"" range?",0=Low;1=High; 2=Within the range,creatresult_enrollfu,
+"Was a C-Reactive Protein (CRP) test performed?
+Found under ""Other Chem"" in Results tab in MiChart",1=yes; 2=no,crptest_enrollfu,
+What was the CRP value?,"text (number_1decimel place, Min: 0, Max: 1000)",crp_enrollfu,
+"Was the CRP value low, high, or within the ""normal"" range?",0=Low;1=High; 2=Within the range,crpvalue_enrollfu,
+"Was a 25-Hydroxy Vit D (vitamin D) test performed?
+Found under ""Other Chem"" in Results tab in MiChart",1=yes; 2=no,vitdtest_enrollfu,
+What was the vitamin D value?,"text (number, Min: 0, Max: 1000)",vitd_enrollfu,
+"Was the vitamin D value low, high, or within the ""normal"" range?",0=Low;1=High; 2=Within the range,vitdvalue_enrollfu,
+"Was INR tested?
+Found under ""Protime W/INR"" in Results tab in MiChart",1=yes; 2=no,fu_inr,
+INR result,text (number_1decimel place),fu_inr_res,
+What is the goal INR?,text,fu_inrgoal,
+"Was the INR value lower, higher, or within the goal INR range?",0=Lower;1=Higher; 2=Within goal INR range,fu_inrab,
+"Was a D-Dimer test performed?
+Found under ""Special Coag"" in Results tab in MiChart",1=yes; 0=no,ddimertest_enrollfu,
+What was the D-Dimer value?,"text (number_2decimel places, Min: 0, Max: 1000)",ddimer_enrollfu,
+"Was the D-Dimer value low, high, or within the ""normal"" range?",0=Low;1=High; 2=Within the range,ddimervalue_enrollfu,
+"Was a chromogenic factor X test performed?
+Found under ""Special Coag"" in Results tab in MiChart",1=yes; 0=no,facxtest_enrollfu,
+What was the chromogenic factor x value?,"text (number, Min: 0, Max: 1000)",facx_enrollfu,
+"Was an Antinuclear Antibody (ANA) test performed? 
+Found under ""Antinuclear Antibody"" in Results tab in MiChart",1=yes; 0=no,anatest_enrollfu,
+How was the ANA value reported?,1=Positive; 0=Negative,ana_enrollfu,
+"Was an Extractable Nuclear Antigen Antibodies (ENA) Panel performed?
+Found under ""Antinuclear Antibody"" in Results tab in MiChart",1=yes; 0=no,ena10test_enrollfu,
+Were any of the ENA 10 tests positive? Select ONLY positive results.,Anti-Sm: 1=yes; 0=no,enapos_enrollfu___0,
+,Anti-RNP: 1=yes; 0=no,enapos_enrollfu___1,
+,Anti-SmRNP: 1=yes; 0=no,enapos_enrollfu___2,
+,Anti-SSa/Anti-Ro: 1=yes; 0=no,enapos_enrollfu___3,
+,Anti-SSb/Anti-La: 1=yes; 0=no,enapos_enrollfu___4,
+,Anti-Jo1: 1=yes; 0=no,enapos_enrollfu___5,
+,Anti-Scl-70: 1=yes; 0=no,enapos_enrollfu___6,
+,Ribosomal Protein: 1=yes; 0=no,enapos_enrollfu___7,
+,Chromatin: 1=yes; 0=no,enapos_enrollfu___8,
+,Centromere B: 1=yes; 0=no,enapos_enrollfu___9,
+"Was an anti-dsDNA test performed?
+Found under ""Antinuclear Antibody"" in Results tab in MiChart",1=yes; 0=no,dsdnatest_enrollfu,
+What was the anti-dsDNA value?,"text (number_1decimel place, Min: 0, Max: 1000)",dsdna_enrollfu,
+"Was the anti-dsDNA value low, high, or within the ""normal"" range?",0=Low;1=High; 2=Within the range,dsdnavalue_enrollfu,
+"Was a C3 complement test performed?
+Found under ""Complement"" in Results tab in MiChart",1=yes; 0=no,c3test_enrollfu,
+What was the C3 complement value?,"text (number, Min: 0, Max: 1000)",c3_enrollfu,
+"Was the C3 complement value low, high, or within the ""normal"" range?",0=Low;1=High; 2=Within the range,c3value_enrollfu,
+"Was a C4 complement test performed?
+Found under ""Complement"" in Results tab in MiChart",1=yes; 0=no,c4test_enrollfu,
+What was the C4 complement value?,"text (number, Min: 0, Max: 1000)",c4_enrollfu,
+"Was the C4 complement value low, high, or within the ""normal"" range?",0=Low;1=High; 2=Within the range,c4value_enrollfu,
+Was urine collected?,1=yes; 0=no,urine_enrollfu,
+What was the protein/creatine ratio value?,"text (number, Min: 0, Max: 1000)",urinepcratio_enrollfu,
+"Was the protein/creatine ratio low, high, or within the ""normal"" range?",0=Low;1=High; 2=Within the range,urinepcratiotest_enrollfu,
+Complete?,0=Incomplete;1=Unverified; 2=Complete,followup_labs_complete,
